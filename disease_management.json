@@ -1,0 +1,248 @@
+{
+  "Rice|||Rice blast": [
+    "Grow a rice variety with resistance to blast that is recommended for your region.",
+    "Use healthy, certified seed and follow the local seed-treatment recommendation where blast is a recurring problem.",
+    "Avoid excessive nitrogen; apply nitrogen in balanced, split doses rather than one heavy application.",
+    "Monitor leaves and necks regularly, remove volunteer rice and infected crop residues, and avoid moisture stress during susceptible growth stages."
+  ],
+  "Rice|||Brown spot": [
+    "Use healthy, certified seed and a variety with good brown-spot tolerance where available.",
+    "Correct soil-fertility problems using a soil test; maintain balanced nitrogen and adequate potassium and other nutrients.",
+    "Remove or incorporate infected rice residues and rotate with a suitable non-host crop where practical.",
+    "Maintain a healthy crop with reliable water management; avoid prolonged nutrient or moisture stress."
+  ],
+  "Rice|||Bacterial leaf blight": [
+    "Plant resistant or tolerant rice varieties recommended for the local area.",
+    "Avoid clipping seedling leaf tips during transplanting, because wounds can help the bacterium enter.",
+    "Use balanced nitrogen and avoid excessive nitrogen top-dressing.",
+    "Keep fields and bunds free of volunteer rice and grassy hosts; avoid moving through or handling plants when foliage is wet."
+  ],
+  "Rice|||Sheath blight": [
+    "Use wider, locally recommended plant spacing and avoid an excessively dense canopy.",
+    "Avoid excessive nitrogen; apply fertilizer in balanced split doses.",
+    "Remove or incorporate infected crop residues and manage grasses/weeds that can harbour the pathogen.",
+    "Inspect lower leaf sheaths regularly and seek local plant-pathology advice if lesions begin spreading."
+  ],
+  "Rice|||False smut": [
+    "Choose varieties with better tolerance to false smut where locally available.",
+    "Use healthy seed and avoid excessive nitrogen, particularly late heavy applications.",
+    "Scout panicles around flowering and remove infected smut balls carefully before they rupture and release spores.",
+    "Manage infected crop residues after harvest and follow local advisories for any flowering-stage treatment."
+  ],
+  "Wheat|||Wheat stem rust": [
+    "Grow rust-resistant wheat varieties recommended for your production zone.",
+    "Inspect stems and leaf sheaths regularly, especially as the crop approaches heading and grain filling.",
+    "Remove volunteer wheat plants and avoid carrying infected plant material between fields.",
+    "Use a locally registered rust fungicide only when disease risk and extension advisories justify it; follow the label."
+  ],
+  "Wheat|||Wheat leaf rust": [
+    "Choose a leaf-rust-resistant variety suited to your region and sow within the recommended window.",
+    "Monitor the lower and middle leaves frequently for new orange-brown pustules.",
+    "Remove volunteer wheat and manage crop residues that can maintain the green bridge between seasons.",
+    "Where disease is increasing, use a locally approved fungicide only on the advice of an agricultural extension service and follow its label."
+  ],
+  "Wheat|||Loose smut": [
+    "Use certified, loose-smut-free seed from a reliable source.",
+    "Treat seed with a locally registered systemic seed treatment specifically recommended for loose smut; follow the product label.",
+    "Rogue and remove smutted heads before the black spore masses disperse over healthy flowers.",
+    "Grow resistant or less-susceptible varieties where available and avoid saving seed from affected fields."
+  ],
+  "Maize|||Turcicum leaf blight": [
+    "Plant resistant or tolerant maize hybrids recommended for your area.",
+    "Rotate with a non-host crop and manage infected maize residues after harvest to reduce carry-over inoculum.",
+    "Maintain recommended plant spacing and balanced fertilization to avoid a dense, stressed canopy.",
+    "Scout lower leaves regularly; use a locally approved foliar fungicide only when disease severity and local advice warrant it."
+  ],
+  "Maize|||Maydis leaf blight": [
+    "Select maize hybrids with resistance or tolerance to maydis leaf blight.",
+    "Rotate away from maize and remove or properly incorporate infected maize residues.",
+    "Use recommended plant spacing and avoid excessive nitrogen that produces a dense canopy.",
+    "Monitor lesions during humid weather and follow local extension guidance before applying any registered fungicide."
+  ],
+  "Maize|||Common rust": [
+    "Grow maize hybrids with good common-rust resistance for the local region.",
+    "Scout leaves regularly, particularly during cool, humid weather and before tasseling.",
+    "Remove volunteer maize plants and manage crop residues between seasons where practical.",
+    "If rust becomes severe on a susceptible hybrid, use a locally registered fungicide only according to extension advice and label directions."
+  ],
+  "Maize|||Bacterial stalk rot": [
+    "Improve field drainage and avoid prolonged waterlogging around the root zone.",
+    "Avoid mechanical injury to stalks and roots during cultivation and field operations.",
+    "Use balanced nitrogen and potassium fertilization; avoid excessive nitrogen.",
+    "Remove and destroy severely rotted plants after diagnosis, clean equipment, and rotate with a non-host crop."
+  ],
+  "Tomato|||Early blight": [
+    "Remove and dispose of infected lower leaves and crop debris; do not leave diseased residue beside the plants.",
+    "Rotate tomato with non-solanaceous crops for at least 2–3 seasons where feasible.",
+    "Use clean seed or seedlings, mulch the soil to reduce splash, and avoid overhead irrigation.",
+    "Stake plants and maintain recommended spacing for airflow; use a locally approved fungicide only if disease pressure warrants it."
+  ],
+  "Tomato|||Late blight": [
+    "Use healthy transplants and, where available, late-blight-resistant tomato varieties.",
+    "Remove and destroy infected plants and nearby volunteer potato/tomato plants or cull piles that can maintain the pathogen.",
+    "Improve drainage and airflow; irrigate at the soil level and avoid prolonged leaf wetness.",
+    "During cool, wet, high-risk weather, follow local late-blight alerts and use only a locally registered fungicide according to its label."
+  ],
+  "Tomato|||Bacterial wilt": [
+    "Remove wilted plants with as much of the root system as possible and dispose of them safely; do not compost diseased plants.",
+    "Use disease-free seedlings and resistant/tolerant varieties or grafted plants where suitable.",
+    "Rotate with non-host crops such as cereals; rotation alone may not eliminate the long-lived soil pathogen.",
+    "Improve drainage and sanitize tools, trays and footwear; avoid moving infested soil or irrigation water to clean plots."
+  ],
+  "Tomato|||Tomato yellow leaf curl disease": [
+    "Use resistant or tolerant tomato varieties where available and start with healthy, virus-free seedlings.",
+    "Remove and safely destroy symptomatic plants early to reduce virus sources in the field.",
+    "Protect nurseries with insect-proof netting and use reflective mulch or physical barriers to reduce whitefly landings.",
+    "Remove weeds and volunteer host plants; monitor whiteflies and use integrated vector management. Insecticides may not prevent virus transmission."
+  ],
+  "Potato|||Common scab": [
+    "Plant certified, healthy seed tubers and choose a less-susceptible variety where available.",
+    "Keep soil moisture steady during tuber initiation and early development; avoid dry soil during this period.",
+    "Avoid liming or adding alkaline materials immediately before potato planting; adjust soil pH only on the basis of a soil test and local advice.",
+    "Rotate with non-host crops and avoid repeatedly planting potato in the same scab-affected field."
+  ],
+  "Potato|||Black scurf": [
+    "Use certified seed tubers with minimal black scurf and discard badly affected tubers.",
+    "Use a locally registered seed-tuber treatment or recommended biological treatment where advised.",
+    "Rotate with non-host crops and manage volunteer potatoes and infected crop residues.",
+    "Plant into well-prepared soil at the recommended time and harvest when tuber skins have matured to reduce injury and infection."
+  ],
+  "Potato|||Potato late blight": [
+    "Plant certified disease-free seed tubers and choose resistant or tolerant varieties when available.",
+    "Destroy volunteer potato plants and cull piles, and remove infected foliage promptly where practical.",
+    "Earth up adequately to protect developing tubers and improve field drainage; avoid overhead irrigation and prolonged leaf wetness.",
+    "Monitor local late-blight warnings and use only locally registered fungicides according to the label and resistance-management advice."
+  ],
+  "Chilli|||Anthracnose / fruit rot": [
+    "Use disease-free seed and healthy transplants; use a recommended seed treatment where locally advised.",
+    "Remove and destroy infected fruits regularly, including fallen fruits, to reduce spore production.",
+    "Rotate with non-host crops and avoid planting chilli continuously in the same field.",
+    "Maintain plant spacing and drainage, avoid overhead irrigation, and use a locally approved fungicide only when recommended."
+  ],
+  "Chilli|||Bacterial leaf spot": [
+    "Start with pathogen-free seed and healthy transplants; avoid seed saved from affected plants.",
+    "Remove infected plant debris and rotate with non-host crops for 2–3 seasons where practical.",
+    "Avoid working in the crop while leaves are wet and use drip or soil-level irrigation instead of overhead watering.",
+    "Disinfect tools and trays; use copper-based or other bactericide products only if registered locally and recommended by an extension specialist."
+  ],
+  "Brinjal|||Phomopsis blight and fruit rot": [
+    "Use healthy seed from disease-free fruits and follow a locally recommended seed-treatment protocol.",
+    "Collect and destroy infected fruits, leaves and stems; do not leave diseased material in the field.",
+    "Rotate with non-solanaceous crops for 2–3 seasons and remove volunteer brinjal plants.",
+    "Maintain adequate spacing, drainage and airflow, and avoid overhead irrigation that keeps foliage and fruits wet."
+  ],
+  "Brinjal|||Bacterial wilt": [
+    "Remove and safely destroy wilted plants with their roots; do not replant immediately into the same planting hole.",
+    "Use healthy seedlings and tolerant varieties or grafted plants where locally available.",
+    "Rotate with non-host crops, especially cereals or other crops advised for the field's pathogen history.",
+    "Improve drainage and sanitize tools, trays and footwear; avoid transferring soil or water from affected areas."
+  ],
+  "Cabbage|||Black rot": [
+    "Use certified disease-free seed and healthy transplants; use a validated hot-water seed treatment only under local extension guidance.",
+    "Grow resistant or tolerant cabbage varieties where available.",
+    "Rotate with non-cruciferous crops for at least 2–3 seasons and destroy infected cabbage residues and cruciferous weeds.",
+    "Avoid handling plants when wet, and use clean nursery trays, tools and irrigation water to limit bacterial spread."
+  ],
+  "Cabbage|||Clubroot": [
+    "Use resistant or tolerant varieties where available and start with clean, disease-free transplants.",
+    "Test soil and apply agricultural lime only as recommended to adjust acidic soil; the target pH depends on local soil conditions.",
+    "Use a long rotation away from cruciferous crops (often 7 years or longer in heavily infested fields) because resting spores persist in soil.",
+    "Prevent movement of contaminated soil: clean tools, footwear and machinery, and improve drainage in affected plots."
+  ],
+  "Groundnut|||Tikka leaf spot (early and late leaf spots)": [
+    "Grow varieties with improved resistance or tolerance to early and late leaf spots.",
+    "Rotate groundnut with cereals and remove or incorporate infected groundnut residues after harvest.",
+    "Maintain recommended spacing and control weeds to improve airflow and reduce prolonged leaf wetness.",
+    "Inspect lower leaves regularly and follow local extension advice for a registered fungicide if disease begins to increase."
+  ],
+  "Groundnut|||Groundnut rust": [
+    "Choose groundnut varieties with good rust tolerance where available.",
+    "Inspect the lower leaf surfaces regularly for early rust pustules, especially in humid weather.",
+    "Rotate crops and manage volunteer groundnut plants and infected residues between seasons.",
+    "Use a locally registered rust fungicide only when disease pressure warrants it; follow label directions and local spray advisories."
+  ],
+  "Sugarcane|||Red rot": [
+    "Plant healthy, disease-free seed cane setts from inspected fields and use varieties resistant to locally prevalent red-rot strains.",
+    "Rogue and destroy infected clumps and do not use setts from diseased canes for planting.",
+    "Disinfect cutting tools and avoid moving infected cane trash or setts between fields.",
+    "Follow locally recommended sett treatment and crop rotation practices; maintain field sanitation and good drainage."
+  ],
+  "Sugarcane|||Smut": [
+    "Use resistant sugarcane varieties recommended for the area and plant healthy, disease-free setts.",
+    "Inspect fields regularly and remove smut-whip-bearing clumps before the whip releases spores; bag the whip before removal.",
+    "Destroy infected clumps and avoid using setts from affected stools.",
+    "Apply a locally approved sett-treatment protocol and clean cutting tools and transport equipment between fields."
+  ],
+  "Banana|||Panama disease (Fusarium wilt)": [
+    "Plant certified disease-free tissue-culture plants or healthy planting material from a verified clean source.",
+    "Do not move suckers, soil, water, tools or machinery from infested areas into clean fields; disinfect equipment and footwear.",
+    "Remove and destroy infected mats according to local agricultural or quarantine guidance; do not use their suckers for propagation.",
+    "Use resistant or tolerant cultivars suitable for the local Fusarium variant and avoid replanting susceptible banana in heavily infested soil."
+  ],
+  "Banana|||Black Sigatoka": [
+    "Remove heavily infected and dead leaves, or trim infected portions, to reduce the amount of disease-producing tissue.",
+    "Maintain recommended spacing, drainage and canopy ventilation so leaves dry more quickly.",
+    "Remove or manage infected leaf debris and monitor new leaves regularly for disease progression.",
+    "Where needed, use only locally registered fungicides under an extension spray advisory and rotate modes of action to slow resistance."
+  ],
+  "Mango|||Anthracnose": [
+    "Prune dead and diseased twigs and open the canopy to improve air circulation and reduce leaf wetness.",
+    "Collect and dispose of fallen, rotting and mummified fruits and infected panicles.",
+    "Avoid overhead irrigation during flowering and fruit development; maintain good orchard sanitation.",
+    "Use only locally recommended pre-harvest or post-harvest disease-management treatments, and keep harvest crates and storage areas clean."
+  ],
+  "Mango|||Powdery mildew": [
+    "Prune crowded branches and maintain an open canopy so panicles dry quickly.",
+    "Monitor new panicles and flowers closely, especially during cool or humid flowering weather.",
+    "Avoid excessive nitrogen fertilization, which can encourage dense, susceptible growth.",
+    "Remove badly affected panicles where practical and use a locally registered mildew treatment only at the recommended crop stage."
+  ],
+  "Citrus|||Citrus canker": [
+    "Use certified disease-free nursery plants and avoid bringing infected citrus material into the orchard.",
+    "Prune and destroy infected twigs when foliage is dry, following local plant-health or quarantine guidance.",
+    "Disinfect pruning tools and avoid working among wet plants, which can spread bacteria.",
+    "Establish windbreaks where suitable and manage citrus leafminer through integrated pest management to reduce entry wounds."
+  ],
+  "Papaya|||Papaya ringspot disease": [
+    "Use healthy, virus-free seedlings and plant resistant or tolerant varieties where available.",
+    "Rogue and safely remove infected papaya plants as soon as symptoms are recognised; there is no curative treatment for an infected plant.",
+    "Remove nearby volunteer papaya and weed hosts that may maintain the virus between crops.",
+    "Use physical protection for young plants and plan new plantings away from infected papaya blocks; aphid insecticides alone may not stop rapid virus transmission."
+  ],
+  "Grapevine|||Downy mildew": [
+    "Train vines and manage the canopy with suitable shoot positioning and leaf removal so foliage dries quickly.",
+    "Improve drainage and avoid overhead irrigation or other practices that keep leaves wet overnight.",
+    "Remove infected leaves and shoots and manage vineyard floor debris to reduce local inoculum.",
+    "Monitor weather and disease alerts; use locally registered downy-mildew products only as advised and rotate modes of action."
+  ],
+  "Onion|||Purple blotch": [
+    "Use healthy seed or sets and follow a locally recommended seed treatment when necessary.",
+    "Rotate onion with non-allium crops and remove or incorporate infected crop residues.",
+    "Use recommended spacing and drip irrigation to reduce leaf wetness; avoid late-day overhead irrigation.",
+    "Maintain balanced nutrition, particularly avoiding excessive nitrogen, and follow local fungicide advice if lesions spread."
+  ],
+  "Okra|||Yellow vein mosaic disease": [
+    "Plant resistant or tolerant okra varieties recommended for the region.",
+    "Remove and destroy infected plants early to reduce sources of the virus.",
+    "Protect nursery seedlings with insect-proof netting and monitor whiteflies using yellow sticky traps.",
+    "Remove weeds and volunteer host plants around the field and use integrated whitefly management; do not rely on insecticides alone to cure infected plants."
+  ],
+  "Soybean|||Soybean rust": [
+    "Use locally adapted varieties with improved rust resistance or tolerance where available.",
+    "Scout the lower canopy frequently and follow regional disease alerts during humid periods.",
+    "Destroy volunteer soybean plants and manage infected crop residues between seasons.",
+    "If rust is confirmed and increasing, use a locally registered fungicide at the advised stage and rotate modes of action according to the label."
+  ],
+  "Cotton|||Bacterial blight": [
+    "Plant certified, disease-free seed and choose varieties with resistance to bacterial blight.",
+    "Remove or destroy infected crop residues after harvest and manage volunteer cotton plants.",
+    "Rotate with non-host crops and avoid moving through the field when plants are wet.",
+    "Maintain recommended spacing and drainage; use seed treatment or bactericide measures only when included in local extension guidance."
+  ],
+  "Peanut|||Stem rot (southern blight)": [
+    "Rotate peanut with cereals such as maize or sorghum and avoid continuous peanut cultivation in the same field.",
+    "Improve drainage and avoid excessive irrigation, especially around the plant crown.",
+    "Remove and destroy wilted plants with nearby infected debris and soil as appropriate; clean tools before moving between fields.",
+    "Use well-decomposed organic amendments or locally validated biocontrol agents such as Trichoderma where recommended; use fungicides only under local extension guidance."
+  ]
+}

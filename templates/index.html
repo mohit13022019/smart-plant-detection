@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PlantCare AI | Plant Disease Assistant</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="/" class="logo">🌿 PlantCare AI</a>
+        <span class="nav-label">Plant Disease Screening</span>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">PLANT HEALTH ASSISTANT</p>
+
+                <h1>Understand your plant's symptoms.</h1>
+
+                <p class="hero-description">
+                    Describe the symptoms you observe to find possible
+                    disease matches and explore practical management
+                    suggestions.
+                </p>
+            </div>
+
+            <div class="hero-icon">🌱</div>
+        </section>
+
+        <section class="workspace">
+            <div class="form-card">
+                <div class="section-heading">
+                    <span class="step-number">01</span>
+                    <div>
+                        <h2>Describe the plant</h2>
+                        <p>Enter the symptoms you have observed.</p>
+                    </div>
+                </div>
+
+                <form method="POST">
+                    <label for="crop">Crop type</label>
+
+                    <select id="crop" name="crop">
+                        <option
+                            value="All crops"
+                            {% if selected_crop == "All crops" %}selected{% endif %}
+                        >
+                            All crops
+                        </option>
+
+                        {% for crop in crops %}
+                        <option
+                            value="{{ crop }}"
+                            {% if selected_crop == crop %}selected{% endif %}
+                        >
+                            {{ crop }}
+                        </option>
+                        {% endfor %}
+                    </select>
+
+                    <label for="symptoms">Observed symptoms</label>
+
+                    <textarea
+                        id="symptoms"
+                        name="symptoms"
+                        rows="6"
+                        placeholder="Example: Yellow spots on leaves, brown edges, wilting, white powdery growth..."
+                        required
+                    >{{ symptoms }}</textarea>
+
+                    <p class="field-hint">
+                        Include leaf colour, spots, lesions, wilting,
+                        affected plant parts, and how symptoms are spreading.
+                    </p>
+
+                    <label for="method">Analysis method</label>
+
+                    <select id="method" name="method">
+                        {% for method in methods %}
+                        <option
+                            value="{{ method }}"
+                            {% if selected_method == method %}selected{% endif %}
+                        >
+                            {{ method }}
+                        </option>
+                        {% endfor %}
+                    </select>
+
+                    <button type="submit" class="submit-button">
+                        Analyse symptoms <span>→</span>
+                    </button>
+                </form>
+
+                {% if error %}
+                <div class="error-message">{{ error }}</div>
+                {% endif %}
+            </div>
+
+            <aside class="info-card">
+                <div class="info-icon">🔎</div>
+                <h3>How it works</h3>
+
+                <div class="info-step">
+                    <span>1</span>
+                    <p>Describe the visible plant symptoms.</p>
+                </div>
+
+                <div class="info-step">
+                    <span>2</span>
+                    <p>Select a machine-learning or text-similarity method.</p>
+                </div>
+
+                <div class="info-step">
+                    <span>3</span>
+                    <p>Review possible matches and suggested next steps.</p>
+                </div>
+
+                <div class="notice">
+                    <strong>Important</strong>
+                    <p>
+                        Results are preliminary suggestions, not a confirmed
+                        diagnosis. Verify the disease before applying
+                        pesticides or other treatments.
+                    </p>
+                </div>
+            </aside>
+        </section>
+
+        {% if results %}
+        <section class="results-section">
+            <div class="results-heading">
+                <div>
+                    <p class="eyebrow">ANALYSIS COMPLETE</p>
+                    <h2>Possible disease matches</h2>
+                    <p>
+                        Method used: <strong>{{ selected_method }}</strong>
+                    </p>
+                </div>
+
+                <span class="result-count">
+                    {{ results|length }} candidates
+                </span>
+            </div>
+
+            <div class="results-grid">
+                {% for result in results %}
+                <article class="result-card">
+                    <div class="result-top">
+                        <span class="candidate-label">
+                            Candidate {{ loop.index }}
+                        </span>
+
+                        <span class="score">
+                            Score: {{ result.score }}
+                        </span>
+                    </div>
+
+                    <h3>{{ result.disease }}</h3>
+
+                    <p class="crop-label">{{ result.crop }}</p>
+
+                    <div class="detail">
+                        <h4>Causal organism</h4>
+                        <p>
+                            {{ result.causal_organism or "Not specified in dataset" }}
+                        </p>
+                    </div>
+
+                    <div class="detail">
+                        <h4>Pathogen group</h4>
+                        <p>
+                            {{ result.pathogen_group or "Not specified in dataset" }}
+                        </p>
+                    </div>
+
+                    <div class="detail">
+                        <h4>Typical symptoms</h4>
+                        <p>{{ result.symptoms }}</p>
+                    </div>
+
+                    <div class="detail">
+                        <h4>Spread and favourable conditions</h4>
+                        <p>
+                            {{ result.spread or "Not specified in dataset" }}
+                        </p>
+                    </div>
+
+                    <div class="detail">
+                        <h4>Diagnostic notes</h4>
+                        <p>
+                            {{ result.diagnostic_notes or "No additional notes available." }}
+                        </p>
+                    </div>
+
+                    <div class="suggestions">
+                        <h4>Suggested management steps</h4>
+
+                        <ul>
+                            {% for suggestion in result.suggestions %}
+                            <li>{{ suggestion }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+
+            <div class="disclaimer">
+                <strong>Interpretation note:</strong>
+                Scores from different models may have different meanings
+                and should not be compared directly. They are not necessarily
+                calibrated probabilities of disease.
+            </div>
+        </section>
+        {% endif %}
+    </main>
+
+    <footer>
+        <p>PlantCare AI · Educational plant disease screening prototype</p>
+    </footer>
+</body>
+</html>
